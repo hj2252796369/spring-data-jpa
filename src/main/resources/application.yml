@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: root
+    url: jdbc:mysql:///jpa?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
